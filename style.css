@@ -33,6 +33,7 @@ a, .need-help, li {
 }
 a:hover, .need-help:hover, li:hover {
   text-decoration: underline;
+  color: rgb(198, 90, 8);
 }
 ul { margin: 0;
 padding: 0; }
