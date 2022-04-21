@@ -164,20 +164,11 @@ footer {
 .footer__container {
   width: 300px;
 }
-.divider {
-  position: relative;
+.horizon {
   width: 100%;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(133, 133, 133, 0.1) 50%, rgba(255, 255, 255, 0) 100% );
   height: .15rem;
   margin-bottom: 1.5rem;
-}
-.divider-cross {
-  position: absolute;
-  left:0;
-  top:0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(133, 133, 133, 0.1) 50%, rgba(255, 255, 255, 0) 100% );
+  background-image: radial-gradient(farthest-corner at 50% -70%, rgba(0, 0, 0, .3), rgba(0, 0, 0, .05), rgba(0, 0, 0, 0));
 }
 footer .links {
   display: flex;
